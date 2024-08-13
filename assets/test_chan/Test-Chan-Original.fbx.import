@@ -1,0 +1,114 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://bhc6nngwjdvum"
+path="res://.godot/imported/Test-Chan-Original.fbx-79678c921566c56bcf72d8b198059787.scn"
+
+[deps]
+
+source_file="res://assets/test_chan/Test-Chan-Original.fbx"
+dest_files=["res://.godot/imported/Test-Chan-Original.fbx-79678c921566c56bcf72d8b198059787.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"materials": {
+"Body": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Body.tres"
+},
+"EyeSockets": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Eyesockets.tres"
+},
+"Eyebrows": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Eyebrows.tres"
+},
+"Eyelashes": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Eyelashes.tres"
+},
+"Eyelines": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Eyelines.tres"
+},
+"Face": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Face.tres"
+},
+"Glasses": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Glasses.tres"
+},
+"GlassesLenses": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/GlassesLenses.tres"
+},
+"Hair": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Hair.tres"
+},
+"HairBack": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/HairBack.tres"
+},
+"Highlights": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Highlights.tres"
+},
+"Iris": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Iris.tres"
+},
+"Mouth": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Mouth.tres"
+},
+"Shirt": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Shirt.tres"
+},
+"Shoes": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Shoes.tres"
+},
+"Shorts": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/test_chan/Tex/Shorts.tres"
+}
+},
+"nodes": {
+"PATH:Armature/Skeleton3D": {
+"rest_pose/external_animation_library": null,
+"retarget/bone_map": null,
+"retarget/bone_renamer/unique_node/make_unique": false,
+"retarget/bone_renamer/unique_node/skeleton_name": "Skeleton3D",
+"retarget/rest_fixer/fix_silhouette/enable": true,
+"retarget/rest_fixer/fix_silhouette/filter": [&"LeftFoot", &"RightFoot"]
+}
+}
+}
+fbx/importer=0
+fbx/allow_geometry_helper_nodes=false
+fbx/embedded_image_handling=1

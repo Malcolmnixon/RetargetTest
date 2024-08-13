@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://chxh01eqcvwdv"]
+
+[ext_resource type="PackedScene" uid="uid://bhc6nngwjdvum" path="res://assets/test_chan/Test-Chan-Original.fbx" id="1_ub20h"]
+[ext_resource type="PackedScene" uid="uid://cg3ursktq1d3n" path="res://assets/test_chan/Test-Chan-Retargeted.fbx" id="2_qml6v"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Test-Chan-Original" parent="." instance=ExtResource("1_ub20h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7, 0, 0)
+
+[node name="Label3D" type="Label3D" parent="Test-Chan-Original"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+text = "Original"
+
+[node name="Test-Chan-Retargeted" parent="." instance=ExtResource("2_qml6v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7, 0, 0)
+
+[node name="Label3D" type="Label3D" parent="Test-Chan-Retargeted"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+text = "Retargeted"
